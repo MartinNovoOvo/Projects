@@ -27,14 +27,15 @@ SCM - Source Code Menagment
 5. cd "scieżka do folderu projektu". Np: c:/users/...
 6. git init - inicjacja
 7. git status - pokazuje status 
-8. git add "nazwa pliku" - dodaje konkretny plik do sledzenia
+8. git add "nazwa pliku" - dodaje konkretny plik do sledzenia. Można odać wile plików za jednym razem komendą: git add -A
 9. git rm --cached "nazwa pliku" - usuwa plik z śledzenia
 10. rm -rf .git  - usuwa git z projektu
 11. git commit -m "dowolny opis" - zapisuje aktualną wersję plików do histroii rejestru wraz z dodanym opisem. 
 12. git diff - poazuje co się zmieniło
 13. git restore --staged - usuwa pliki z staging. 
 14. git commit -a -m "opis dowolny" - omija etap stagingu i odrazu zapisuje zmiany
-
+15. git rm "nazwa pliku" - usuwa wybrany plik. RM -remove
+16. git restore "nazwa pliku" - przywracanie usuniętego pliku. Niezależnie czy był on usunięty przez wierz poleceń czy przez eksplorator windows. 
 
 
 # Przydatne linki
