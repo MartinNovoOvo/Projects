@@ -17,6 +17,8 @@ SCM - Source Code Menagment
     + pliki edytowalne - edytowanie plików
     + staging - trzymanie ich w pogotowiu, aż będzieez gotowy do zapisu (commit)
     + commit - ostatni etap, czyli zapisanie zmian
+9. Przywołanie konkretnej wersji czyli comiit. Nalezy wpisać git reset i numer comita. Moze być numer skrócony z komendy git log --oneline
+10. Nowa **branch** - to kompletna kopia głownej branch. Dzięki temu mozemy pracować na niej bez obawy. 
 
 
 ## Komendy
@@ -36,6 +38,14 @@ SCM - Source Code Menagment
 14. git commit -a -m "opis dowolny" - omija etap stagingu i odrazu zapisuje zmiany
 15. git rm "nazwa pliku" - usuwa wybrany plik. RM -remove
 16. git restore "nazwa pliku" - przywracanie usuniętego pliku. Niezależnie czy był on usunięty przez wierz poleceń czy przez eksplorator windows. 
+17. git log - pokazuje wszystkie commity lub git log --oneline - skrócona wersja podglądu
+18. git commit -m "inna naza ostatniego comita" --amend  - zmienia nazwę ostatniego commita
+19. git log -p - pokazuje co dokłądnie się w danym commicie zmeiniło
+20. git help log - pokazuje pomoc w sparwie log, można zamiast log napisać inną interesującą nas funkcję
+21. git reset *numer commmita* - przenosi nas do danej wersji
+22. git rebase -i --root - otwiera opcje wyświetlania commitó. Aby **wyjść** z tej funkcji należy wpisać dwykropek i x, nastepnie wcisnąć enter- *:x*
+
+
 
 
 # Przydatne linki
