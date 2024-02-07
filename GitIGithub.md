@@ -44,6 +44,8 @@ SCM - Source Code Menagment
 20. git help log - pokazuje pomoc w sparwie log, można zamiast log napisać inną interesującą nas funkcję
 21. git reset *numer commmita* - przenosi nas do danej wersji
 22. git rebase -i --root - otwiera opcje wyświetlania commitó. Aby **wyjść** z tej funkcji należy wpisać dwykropek i x, nastepnie wcisnąć enter- *:x*
+23. git branch *nazwa* - dodaje nową branch
+24. git branch -pokazuje ile jest branch
 
 
 
