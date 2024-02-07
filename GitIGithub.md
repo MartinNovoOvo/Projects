@@ -1,6 +1,6 @@
 # GIT
 SCM - Source Code Menagment 
-## Proces
+### Proces
 1. Okreslamy operatora: imię i adres emial
 2. Wybieramy ścieżkę do projketu/folderu
 3. Inicjujemy
@@ -24,7 +24,7 @@ SCM - Source Code Menagment
 
 
 
-## Komendy
+### Komendy 
 1. git config --global user.name "Marcin" - ustawia imię operatora
 2. git config --global user.email przykład@abc.com - bez cudzysłowu, ustawia adres email
 3. git config --global init.default branch main  - ustawia nazwę branch
@@ -52,9 +52,10 @@ SCM - Source Code Menagment
 25. git switch *nazwa branch* - przełącza sie miedzy branchami
 26. git branch -d *nazwa branchy* - usuwa daną branche. Z duża literką -D jest brute force, bez względu na komunikaty
 26. git ls-tree -r master - pokazuje obecnie sledzone pliki w master branch
+27. git merge *nazwa branch* - scala wybraną branch z główną
 
 
 
 
-# Przydatne linki
+## Przydatne linki
 1. https://github.com/github/gitignore
