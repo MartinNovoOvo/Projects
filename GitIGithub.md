@@ -46,6 +46,7 @@ SCM - Source Code Menagment
 22. git rebase -i --root - otwiera opcje wyświetlania commitó. Aby **wyjść** z tej funkcji należy wpisać dwykropek i x, nastepnie wcisnąć enter- *:x*
 23. git branch *nazwa* - dodaje nową branch
 24. git branch -pokazuje ile jest branch
+25. git ls-tree -r master - pokazuje obecnie sledzone pliki w master branch
 
 
 
