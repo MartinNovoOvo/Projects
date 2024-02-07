@@ -18,7 +18,10 @@ SCM - Source Code Menagment
     + staging - trzymanie ich w pogotowiu, aż będzieez gotowy do zapisu (commit)
     + commit - ostatni etap, czyli zapisanie zmian
 9. Przywołanie konkretnej wersji czyli comiit. Nalezy wpisać git reset i numer comita. Moze być numer skrócony z komendy git log --oneline
-10. Nowa **branch** - to kompletna kopia głownej branch. Dzięki temu mozemy pracować na niej bez obawy. 
+10. Nowa **branch** - to kompletna kopia głownej branch. Dzięki temu mozemy pracować na niej bez obawy.
+    + brancha jest tworzona w danym momencie i od tego momentu zmiany w głonej się nie pokrywają z nową branch. 
+    + aby usunąć dodatkową branch, trzeba najpierw z niej wyjść i ewentualnie dokonać **merge** 
+
 
 
 ## Komendy
@@ -46,7 +49,9 @@ SCM - Source Code Menagment
 22. git rebase -i --root - otwiera opcje wyświetlania commitó. Aby **wyjść** z tej funkcji należy wpisać dwykropek i x, nastepnie wcisnąć enter- *:x*
 23. git branch *nazwa* - dodaje nową branch
 24. git branch -pokazuje ile jest branch
-25. git ls-tree -r master - pokazuje obecnie sledzone pliki w master branch
+25. git switch *nazwa branch* - przełącza sie miedzy branchami
+26. git branch -d *nazwa branchy* - usuwa daną branche. Z duża literką -D jest brute force, bez względu na komunikaty
+26. git ls-tree -r master - pokazuje obecnie sledzone pliki w master branch
 
 
 
