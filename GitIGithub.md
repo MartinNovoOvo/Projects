@@ -55,6 +55,7 @@ SCM - Source Code Menagment
 
 ### GITHUB
 1. git push --all - wysle wszytskie branch do github
+2. git push -u origin main - wyysła zmiany do zdalnego repozytorium -github
 
 ## Przydatne linki
 1. https://github.com/github/gitignore
