@@ -10,6 +10,8 @@
     + [x] Nauka Gita i GitHub
 4. [x] Testy techniki pomodoro
 5. Jak zacząć aplikacje
+   + [x] node.js zainstalowany
+   + [x] Hellow wordl w VSC
 
 # Funkcjonalności
 ## Kalendarz
