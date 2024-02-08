@@ -3,13 +3,15 @@
 1. Numery punktó w wizualizacji zmieniają sie w dobrej kolejności mimo że po stronie pisanej były takie same numery. Czyli: numer 3 potem 3 na liście, a wizualizacja dawał 3 potem 4.
 
 # Plan działania
-1. Wybór IDE - Visual Code Studio 
+1. - [x] Wybór IDE - Visual Code Studio 
 2. Nauka i wprowadzenie do obłsługi VCS
     + tworzenie dokumentacji - https://www.markdownguide.org/getting-started/
     + tutoriale  VCS: https://code.visualstudio.com/docs/getstarted/introvideos 
     + Nauka Gita
 4. Testy techniki pomodoro
 5. Jak zacząć aplikacje
+# test
+- [ ] fgfg
 
 # Funkcjonalności
 ## Kalendarz
