@@ -10,8 +10,6 @@
     + [x] Nauka Gita i GitHub
 4. [x] Testy techniki pomodoro
 5. Jak zacząć aplikacje
-# test
-- [ ] fgfg
 
 # Funkcjonalności
 ## Kalendarz
