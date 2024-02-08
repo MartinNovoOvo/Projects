@@ -1,4 +1,3 @@
-# GIT
 SCM - Source Code Menagment 
 ### Proces
 1. Okreslamy operatora: imię i adres emial
@@ -54,8 +53,8 @@ SCM - Source Code Menagment
 26. git ls-tree -r master - pokazuje obecnie sledzone pliki w master branch
 27. git merge *nazwa branch* - scala wybraną branch z główną
 
-
-
+### GITHUB
+1. git push --all - wysle wszytskie branch do github
 
 ## Przydatne linki
 1. https://github.com/github/gitignore
