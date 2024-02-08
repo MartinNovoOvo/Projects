@@ -55,7 +55,10 @@ SCM - Source Code Menagment
 
 ### GITHUB
 1. git push --all - wysle wszytskie branch do github
-2. git push -u origin main - wyysła zmiany do zdalnego repozytorium -github
+2. git push -u origin main - wysła zmiany do zdalnego repozytorium -github
+3. git fetch - sciąga zmiany powstałe w zdalnym repozytorium. Trzeba jeszcze użyć komendy *merge*
+4. git merge - aby połączyć sciągnięte dane i widzieć zmiany
+5. git pull - komenda łącząca *git fetch* i *git merge*
 
 ## Przydatne linki
 1. https://github.com/github/gitignore
