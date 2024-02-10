@@ -1,6 +1,5 @@
 # Notatnik
 ## IDE
-1. Numery punktó w wizualizacji zmieniają sie w dobrej kolejności mimo że po stronie pisanej były takie same numery. Czyli: numer 3 potem 3 na liście, a wizualizacja dawał 3 potem 4.
 
 # Plan działania
 1. [x] Wybór IDE - Visual Code Studio 
