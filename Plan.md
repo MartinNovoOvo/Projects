@@ -11,6 +11,15 @@
 5. Jak zacząć aplikacje
    + [x] node.js zainstalowany
    + [x] Hellow wordl w VSC
+   + [ ] Nauka node.js
+      + [ ] JavaScript
+       
+
+# Aplikacja Kalendarz - technologie
+1.	Generujemy PDF po stronie serwera/backendu
+Wtedy na backendzie może się to dziać na zasadzie wygenerowania bitmapy i w jej określonych miejscach umieszczasz tekst (daty) i ewentualnie jakieś obrazy dodatkowe
+2.	Interfejs/API – z tego będzie korzystać część fronendoa. Kotlin for WebAssembly -> Kotlin Wasm. 
+
 
 # Funkcjonalności
 ## Kalendarz
