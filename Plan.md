@@ -1,3 +1,6 @@
+<!--LTex: enabled=false -->
+<!-- powyżej komenda wyłączająca sprawdzanie przez Ltex  -->
+
 # Notatnik
 ## IDE
 

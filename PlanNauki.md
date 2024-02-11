@@ -1,3 +1,6 @@
+<!--LTex: enabled=false -->
+<!-- powyżej komenda wyłączająca sprawdzanie przez Ltex  -->
+
 # Przydatne linki
 1. https://roadmap.sh/backend
 2. https://roadmap.sh/backend?r=backend-beginner
