@@ -6,7 +6,8 @@
 + https://www.youtube.com/watch?v=qz0aGYrrlhU
 
 # HTML - hyperMarkupLanguage
-1. ![alt text](image.png)
+1.  
+![alt text](htmlCssJs.jpg)
 2. Plik typu html, można otworzyć po upuszczeniu go na przeglądarkę internetową
 3. `<!DOCTYPE HTML>` - **Bez spacji** każdy projekt powinien zaczynać się od deklaracji typu dokumentu. 
 4. HTML Tags - tag list: https://www.w3schools.com/TAGs/.  
