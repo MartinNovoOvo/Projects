@@ -54,3 +54,4 @@ The different input [`types`](https://www.w3schools.com/TAGs/att_input_type.asp)
     + `<input type="week">`<input type="week"> with `<label>`
 12. [`<label>`](https://www.w3schools.com/TAGs/tag_label.asp) - kind of declaring what particular element is doing. It must be same to the `id` of the related element to bind them together. Label also can be bound together with element by placing element inside label. 
 13. [`<br>`](https://www.w3schools.com/TAGs/tag_br.asp) - self-closing, insert single line break
+14. [`<aside>`](https://www.w3schools.com/TAGS/tag_aside.asp) - anchor tag
