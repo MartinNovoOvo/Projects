@@ -20,5 +20,37 @@ The website is built from various elements. For a given element to work, we invo
     + `alt` - Specifies an alternate text for the image, if the image for some reason cannot be displayed.    
     
     Example: `<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">`
-9. [`<div>` `</div>`](https://www.w3schools.com/TAGs/tag_div.asp) (divider)- we use it for **nesting**. It is used as a container for section of code. Any kind of contetn can be put in `<div>`. It is useful for CSS and JS. By definiton, browser are plaxce line break before and after `<div>`.
-10. [`<buton>`](https://www.w3schools.com/TAGs/tag_button.asp) -
+9. [`<div>` `</div>`](https://www.w3schools.com/TAGs/tag_div.asp) (divider)- we use it for **nesting**. It is used as a container for section of code. Any kind of content can be put in `<div>`. It is useful for CSS and JS. By definition, browser are placing line break before and after `<div>`.
+10. [`<buton>`](https://www.w3schools.com/TAGs/tag_button.asp) - defines clickable button.  **Specify the `type` attribute for a `<button>`**.  
+Types of `<button>`:
+    + `button`
+    + `submit`
+    + `reset`   
+    
+    You can put inside text and tags like: `<i>`, `<b>`, `<strong>`, `<br>`, `<img>` etc. *This is not possible with the `<input>`*.
+11. [`<input>`](https://www.w3schools.com/TAGs/tag_input.asp) - self-closing. Specifies where user can enter data. The `<input>` element can be displayed in many ways, depending on the attribute.  
+The different input [`types`](https://www.w3schools.com/TAGs/att_input_type.asp) are as follows:
+    + `<input type="button">` <input type="button">
+    + `<input type="checkbox">`<input type="checkbox"> with `<label>`
+    + `<input type="color">`<input type="color"> with `<label>`
+    + `<input type="date">`<input type="date"> with `<label>`
+    + `<input type="datetime-local">`<input type="datetime-local"> with `<label>`
+    + `<input type="email">`<input type="email"> with `<label>`
+    + `<input type="file">`<input type="file"> with `<label>`
+    + `<input type="hidden">` <input type="hidden">
+    + `<input type="image">` <input type="image">
+    + `<input type="month">`<input type="month"> with `<label>`
+    + `<input type="number">`<input type="number"> with `<label>`
+    + `<input type="password">`<input type="password"> with `<label>`
+    + `<input type="radio">`<input type="radio"> with `<label>`
+    + `<input type="range">`<input type="range"> with `<label>`
+    + `<input type="reset">` <input type="reset">
+    + `<input type="search">`<input type="search"> with `<label>`
+    + `<input type="submit">` <input type="submit">
+    + `<input type="tel">`<input type="tel"> with `<label>`
+    + `input type="text">` (default value)<input type="text"> with `<label>`
+    + `<input type="time">`<input type="time"> with `<label>`
+    + `<input type="url">`<input type="url"> with `<label>`
+    + `<input type="week">`<input type="week"> with `<label>`
+12. [`<label>`](https://www.w3schools.com/TAGs/tag_label.asp) - kind of declaring what particular element is doing. It must be same to the `id` of the related element to bind them together. Label also can be bound together with element by placing element inside label. 
+13. [`<br>`](https://www.w3schools.com/TAGs/tag_br.asp) - self-closing, insert single line break
