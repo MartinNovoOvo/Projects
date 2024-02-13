@@ -55,11 +55,18 @@ The different input [`types`](https://www.w3schools.com/TAGs/att_input_type.asp)
 12. [`<label></label>`](https://www.w3schools.com/TAGs/tag_label.asp) - kind of declaring what particular element is doing. It must be same to the `id` of the related element to bind them together. Label also can be bound together with element by placing element inside label. 
 13. [`<br>`](https://www.w3schools.com/TAGs/tag_br.asp) - self-closing, insert single line break
 14. [`<aside></aside>`](https://www.w3schools.com/TAGS/tag_aside.asp) - when you want to put some content aside, but related to prime content. `<aside>` is often placed as a sidebar in document.
-15. [`<a></a>`](https://www.w3schools.com/TAGs/tag_a.asp) - anchor tag, it defines a hyperlink to another page. Very important attribute of the `<a>` is [`href`](https://www.w3schools.com/tags/att_a_href.asp), witch indicates the link destination. `<a>` will be only a placeholder for link if there is no `href`(hypertext reference). Important atribute of `<a>` tag is attribute [`target`](https://www.w3schools.com/tags/att_a_target.asp). It specifies how to open link. List of options below:
+15. [`<a></a>`](https://www.w3schools.com/TAGs/tag_a.asp) - anchor tag, it defines a hyperlink to another page. Very important attribute of the `<a>` is [`href`](https://www.w3schools.com/tags/att_a_href.asp), witch indicates the link destination. `<a>` will be only a placeholder for link if there is no `href`(hypertext reference). Important attribute of `<a>` tag is attribute [`target`](https://www.w3schools.com/tags/att_a_target.asp). It specifies how to open link. List of options below:
     + `_blank` - opens linked document in a new window or tab.
     + `_self` - opens the linked document in the same frame as it was clicked (this is default)
     + `_parent` - opens the linked document in the parent frame
     + `_top` - opens the linked document in the full body of the window
-    + `framename` - Opens the linked document in the named iframe.
+    + `framename` - Opens the linked document in the named iframe. 
     
     Example: `<a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>`
+16. [HTML stucture](https://www.w3docs.com/snippets/html/html5-page-structure.html) - 
+``` html
+<!DOCTYPE HTML>
+<html lang="en">
+
+</html>
+```
