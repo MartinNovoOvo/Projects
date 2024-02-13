@@ -21,7 +21,7 @@ The website is built from various elements. For a given element to work, we invo
     
     Example: `<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">`
 9. [`<div>` `</div>`](https://www.w3schools.com/TAGs/tag_div.asp) (divider)- we use it for **nesting**. It is used as a container for section of code. Any kind of content can be put in `<div>`. It is useful for CSS and JS. By definition, browser are placing line break before and after `<div>`.
-10. [`<buton>`](https://www.w3schools.com/TAGs/tag_button.asp) - defines clickable button.  **Specify the `type` attribute for a `<button>`**.  
+10. [`<buton></buttom>`](https://www.w3schools.com/TAGs/tag_button.asp) - defines clickable button.  **Specify the `type` attribute for a `<button>`**.  
 Types of `<button>`:
     + `button`
     + `submit`
@@ -52,6 +52,14 @@ The different input [`types`](https://www.w3schools.com/TAGs/att_input_type.asp)
     + `<input type="time">`<input type="time"> with `<label>`
     + `<input type="url">`<input type="url"> with `<label>`
     + `<input type="week">`<input type="week"> with `<label>`
-12. [`<label>`](https://www.w3schools.com/TAGs/tag_label.asp) - kind of declaring what particular element is doing. It must be same to the `id` of the related element to bind them together. Label also can be bound together with element by placing element inside label. 
+12. [`<label></label>`](https://www.w3schools.com/TAGs/tag_label.asp) - kind of declaring what particular element is doing. It must be same to the `id` of the related element to bind them together. Label also can be bound together with element by placing element inside label. 
 13. [`<br>`](https://www.w3schools.com/TAGs/tag_br.asp) - self-closing, insert single line break
-14. [`<aside>`](https://www.w3schools.com/TAGS/tag_aside.asp) - anchor tag
+14. [`<aside></aside>`](https://www.w3schools.com/TAGS/tag_aside.asp) - when you want to put some content aside, but related to prime content. `<aside>` is often placed as a sidebar in document.
+15. [`<a></a>`](https://www.w3schools.com/TAGs/tag_a.asp) - anchor tag, it defines a hyperlink to another page. Very important attribute of the `<a>` is [`href`](https://www.w3schools.com/tags/att_a_href.asp), witch indicates the link destination. `<a>` will be only a placeholder for link if there is no `href`(hypertext reference). Important atribute of `<a>` tag is attribute [`target`](https://www.w3schools.com/tags/att_a_target.asp). It specifies how to open link. List of options below:
+    + `_blank` - opens linked document in a new window or tab.
+    + `_self` - opens the linked document in the same frame as it was clicked (this is default)
+    + `_parent` - opens the linked document in the parent frame
+    + `_top` - opens the linked document in the full body of the window
+    + `framename` - Opens the linked document in the named iframe.
+    
+    Example: `<a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>`
