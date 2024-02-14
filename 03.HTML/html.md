@@ -63,10 +63,39 @@ The different input [`types`](https://www.w3schools.com/TAGs/att_input_type.asp)
     + `framename` - Opens the linked document in the named iframe. 
     
     Example: `<a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>`
-16. [HTML stucture](https://www.w3docs.com/snippets/html/html5-page-structure.html) - 
+16. [HTML structure](https://www.w3docs.com/snippets/html/html5-page-structure.html) - 
 ``` html
-<!DOCTYPE HTML>
-<html lang="en">
-
+<!DOCTYPE html> **Document Type Declaration**
+<html lang="en"> **This element tells browser, that it is html. lang attribute is nowadays unnecessary**
+    <head> **This element contains metadata (document title, character set, styles, links, scripts), specific information about the web page that is not displayed to the user**
+        <title>Google clone</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="Martin" content="google">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body> **The <body> of a document contains the content of the document. The content may be presented by a user agent in different ways. E.g., the content can be text, images, links, colors, graphics, etc.**
+        <img src="google.png">
+        <input type="text">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+        <p>We protect your privacy. <a href="blog.html">Learn how.</a></p>
+    </body>
 </html>
 ```
+17. [Lists](https://www.w3schools.com/HTML/html_lists.asp) - we can create different type of lists.
+    + [`<ul></ul>`](https://www.w3schools.com/TAGs/tag_ul.asp) - Unordered list, will be marked with bullets by default.
+        + [`<li></li>`](https://www.w3schools.com/TAGs/tag_li.asp) - for each list item
+    + [`<ol></ol>`](https://www.w3schools.com/TAGs/tag_ol.asp) - Ordered list, will be marked with numbers by default. It can be changed. Order, kind and specific start value can be changed.
+        + `reversed` - list order will be reversed (3,2,1)
+        + `start` - on what value order starts
+        + `type` - what kind of marker to use in the list
+            + `1` - Decimal numbers (Default)
+            + `a` - Alphabetical order list, lowercase (a, b, c)
+            + `A` - Alphabetical order list, uppercase (A, B, C)
+            + `i` - Roman number, lowercase (i, ii, iii)
+            + `I` - Roman number, uppercase (I, II, III)
+        + `<li></li>` - for each list item
+    + [`<dl></dl>`](https://www.w3schools.com/TAGs/tag_dl.asp) - Description list
+        + [`<dt></dt>`](https://www.w3schools.com/TAGs/tag_dt.asp) - defines the term (name)
+        + [`<dd></dd>`](https://www.w3schools.com/TAGs/tag_dd.asp) - describes each term
+18.  
