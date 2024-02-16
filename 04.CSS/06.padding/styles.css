@@ -1,0 +1,13 @@
+.frame {
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 5px solid #222222;
+    border-radius: 20px;
+
+    padding: 20px;
+}

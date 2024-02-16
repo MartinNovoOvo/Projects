@@ -1,0 +1,11 @@
+.twitter {
+    border: 2px solid #cfd9de;
+    color: #0f1419;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background: white;
+    font-weight: bold;
+}

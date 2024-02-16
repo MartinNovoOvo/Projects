@@ -12,7 +12,14 @@
 
 .searcher {
     display: block;
-    width: 400px;
+    width: 562px;
+    height: 42px;
+    padding-top: 1px;
+    padding-right: 87;
+    padding-bottom: 1px;
+    padding-left: 52px;
     margin-right: auto;
     margin-left: auto;
+    border-radius: 15px;
+    border: 5px gray;
 }

@@ -66,7 +66,7 @@ Example of internal CSS: `.nameOfClass` and `class="nameOfClass`
     </body>
 </html>
  ```
-10. centering with margins - we need 3 elements to achive that:
+10. Centering with margins - we need 3 elements to archive that:
     + `display: block` - because it needs to control horizontal space
     + `width` - because we have to control it. For example, it can not be wider than browser, or to prevent from self expanding elements. 
     + `margin left/right: auto`  
@@ -77,4 +77,21 @@ Example of internal CSS: `.nameOfClass` and `class="nameOfClass`
     margin-left: auto;
     margin-right: auto;
 ```
-11. 233
+11. [`padding`](https://www.w3schools.com/csS/css_padding.asp) - used to create space around an element's content, inside any defined borders. You can shorten the code same like with margin - just write: `padding: 25px 50px`. If you want to use one value for all properties you can write: `padding: 20px`.  
+It has 4 properties:
+    + `padding-top`
+    + `padding-right`
+    + `padding-bottom`
+    + `padding-left`  
+    
+    <!-- All the padding properties can have following values: -->
+    + `lenght`- expressed in `px`, `pt`, `cm` etc.
+    + `%` - expressed in `%` of the width of containing element.
+    + `inherit` - specifies that the padding should be inherited from parent element.  
+    
+    [`margin` & `padding`](https://miroslawzelent.pl/kurs-css/margin-padding/) differences. Example: Margins add space outside container like `<div>`. On the other hand padding add more space around but from inside that container. 
+
+12. [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border) - these properties can describe by 3 values: `border-color`, `border-style`, `border0width`. We can use 1 or 2 or 3 values at one time. Order of values does not matter.
+13. [**The CSS box model**](https://www.w3schools.com/Css/css_boxmodel.asp) - this term is used when talking about deign and layout of web page. The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins.  
+![alt text](boxModel.jpg)  
+next
