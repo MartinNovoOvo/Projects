@@ -1,6 +1,0 @@
-{"rule":"LC_AFTER_PERIOD","sentence":"^\\QPriority order - when there are more styles used.alt text\\E$"}
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QLex specialis derogat legi generali General rules:\ninline CSS (HTML style attribute) overrides CSS rules in style tag and CSS file\na more specific selector takes precedence over a less specific one\nrules that appear later in the code override earlier rules if both have the same specificity.\\E$"}
-{"rule":"ARROWS","sentence":"^\\QNOT a place to arrange it --> <div class=\"frame\"> <!-- padding only to visualize how it works.\\E$"}
-{"rule":"ARROWS","sentence":"^\\QNOT a place to arrange it --> A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution.\\E$"}
-{"rule":"ARROWS","sentence":"^\\QNOT a place to arrange it --> </div> <!-- margin only to visualize how it works.\\E$"}
-{"rule":"ARROWS","sentence":"^\\QNOT a place to arrange it --> </body> </html>\\E$"}
