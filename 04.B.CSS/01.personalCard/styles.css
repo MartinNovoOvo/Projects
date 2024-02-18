@@ -9,8 +9,14 @@ body {
 }
 
 .card {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
-    border: dotted 2px blue;
     padding: 20px;
+    justify-content: space-around;
+}
 
+.border {
+    border: dotted 2px blue;
 }
