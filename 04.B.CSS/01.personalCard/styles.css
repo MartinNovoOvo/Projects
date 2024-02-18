@@ -1,0 +1,16 @@
+/*LTex: enabled=false */
+
+body {
+    margin: 20px;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    display: flex;
+    border: dotted 2px blue;
+    padding: 20px;
+
+}
