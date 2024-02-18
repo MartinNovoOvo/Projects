@@ -1,6 +1,0 @@
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qalt text\nFlexbox - is a layout module, it makes easier to design flexible responsive layout structure without float or positioning.\\E$"}
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFlexbox always consists: container - parent element and items - children.\\E$"}
-{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qalt text\\E$"}
-{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qalt text\nFlexbox - is a layout module, it makes easier to design flexible responsive layout structure without float or positioning.\\E$"}
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q</head> <body> <div class=\"card\"> <img src=\"per.png\" alt=\"Bust of smiling Mr Borgen to the camera\" class=\"avatar\"> <h3>Per Harald Borgen</h3> <p>Frontend Developer</p> <p>Frontend Developer</p> <h4>Oslo, Norway</h4> </div> </body> </html>\\E$"}
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFlex box </head> <body> <h1>Upgrade to Pro</h1> <div class=\"pricing\"></div> <div> <h2>For individuals</h2> <ul> <li>1 gb</li> <li>No support</li> </ul> <button>Buy now</button> </div> <h2>For enterprise</h2> <ul> <li>10 gb</li> <li>Priority support</li> </ul> <button>Contact us</button> </div> </body> </html>\\E$"}
