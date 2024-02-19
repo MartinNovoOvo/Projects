@@ -15,8 +15,12 @@ body {
     display: flex;
     padding: 20px;
     justify-content: space-around;
+    text-align: center;
+    color: #2b2839;
+    background-color: #ddebf8;
 }
 
 .border {
-    border: dotted 2px blue;
+    border-bottom: solid 5px #d8cefe;
+    
 }
