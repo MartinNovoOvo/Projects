@@ -26,7 +26,7 @@ Wtedy na backendzie może się to dziać na zasadzie wygenerowania bitmapy i w j
 
 # Funkcjonalności
 ## Kalendarz
-![alt text](Kalendarz.jpg)
+![alt text](/images/Kalendarz.jpg)
 1. Kalendarz jest typu 365 dni. Czyli pokazuje wszystkie dni roku na jednej stronie
 2. Poszczególne miesiące wyświetlają się od 1 do ostatniego, od lewej do prawej, poziomo. W równej lini 
 3. Poszczególne dni każdego miesiąca wyświatlają sie od 1 do ostatniego dnai miesiąca, kolejno od góry do dołu. Każdy dzień to osobne pole w formie komórki.
