@@ -1,3 +1,20 @@
 body {
-    background-image: url(/images/spaceBG.jpg);
+    color: red;
+    background-image: url("/images/spaceBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.btn {
+    padding: 6px 12px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 1px;
+    font-family: inherit;
+
 }

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "gf";
+    src: url(/04.\ Space\ Station/gf.ttf);
+}
+
+h1 {
+    font-family: "gf";
+    font-size: 45px;
+}
