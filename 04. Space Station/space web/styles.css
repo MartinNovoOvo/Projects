@@ -11,14 +11,15 @@ body {
 
 .btn {
     padding: 6px 12px;
-    background-color: white;
-    font-weight: bold;
+    background-color: #ebedf2eb ;
+    font-weight: 900;
     border: none;
     border-radius: 1px;
     font-family: inherit;
+    color: #174361;
 }
 
-.undl {
+.underline {
     /* text-decoration-line: underline; */
     border-bottom: 4px solid;
 }
