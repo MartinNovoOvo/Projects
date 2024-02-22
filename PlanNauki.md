@@ -1,5 +1,3 @@
-<!--LTex: enabled=false -->
-<!-- powyżej komenda wyłączająca sprawdzanie przez Ltex  -->
 
 # Przydatne linki
 1. https://roadmap.sh/backend
@@ -8,7 +6,7 @@
 
 
 # Kolejność nauki
-1. HTML
+1. [x]HTML
     + Szkolenia
         + https://www.w3schools.com/html/default.asp
         + https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
@@ -18,7 +16,7 @@
 
 
 
-2. CSS
+2. [x]CSS
     + Szkolenia:
         + https://www.youtube.com/watch?v=a_iQb1lnAEQ
 3. JavaScript
