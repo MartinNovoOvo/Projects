@@ -1,0 +1,15 @@
+div {
+    text-align: center;
+    color: white;
+    background-color: #e5383b;
+    margin: 5px;
+    padding: 25px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div:hover {
+    /* background: #ba181b; */
+    font-size: 40px;
+    background-image: url(/images/galaxy.webp);
+}
