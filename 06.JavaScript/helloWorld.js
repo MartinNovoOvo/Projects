@@ -38,7 +38,7 @@
 // console.log(myStr3)
 // console.log("STOP STOP")
 
-// myStr = "test backspace \b\nTest new line \rttsfd";
+// myStr = "test backspace \b\nTest new line \rTest";
 // console.log(myStr)
 // var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 // console.log(myStr)
@@ -54,9 +54,25 @@
 // console.log(firstName)
 // console.log("-----------------")
 // var firstNameLength = 0;
-var firstName = "Ada";
+// var firstName = "Ada";
 // firstName = firstName.length
-console.log(firstName.length)
+// console.log(firstName.length)
+// console.log("-----------------")
+// var firstLetterOfName = "";
+// var firstName = "Martin";
+// firstLetterOfName = firstName[0];
+// console.log(firstLetterOfName)
+// var firstName = "Martin";
+// lastLetterOfName = firstName[firstName.length - 1];
+// console.log(lastLetterOfName)
+// console.log("-----------------")
+function worldBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+    var result = "";
+    result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb
+    return result;
+}
+console.log(worldBlanks("dog", "big", "ran", "quickly"))
+console.log(worldBlanks("bike", "pink", "ran", "slowly"))
 
 
 
