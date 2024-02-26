@@ -66,15 +66,43 @@
 // lastLetterOfName = firstName[firstName.length - 1];
 // console.log(lastLetterOfName)
 // console.log("-----------------")
-function worldBlanks(myNoun, myAdjective, myVerb, myAdverb) {
-    var result = "";
-    result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb
-    return result;
+// function worldBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+//     var result = "";
+//     result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb
+//     return result;
+// }
+// console.log(worldBlanks("dog", "big", "ran", "quickly"))
+// console.log(worldBlanks("bike", "pink", "ran", "slowly"))
+
+// var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12],13,14]];
+// var myData = myArray[3][0][2];
+// console.log(myData)
+// var ourArray = ["Simpson", "J", "cat"];
+// ourArray.push("happy", "joy");
+// console.log(ourArray)
+
+// var ourArray = ["Simpson", "J", ["cat"]];
+// var removedFromOurArray = ourArray.shift();
+// console.log(removedFromOurArray)
+// var ourArray = ["Simpson", "J", "cat"];
+// ourArray.shift(); // removes "Simpson"
+// ourArray.unshift("Happy");
+// console.log(ourArray)
+
+// function ourReusableFunction() {
+//     console.log("Hello World");
+// }
+// ourReusableFunction();
+
+// function ourReusableFunction() {
+//     console.log("Hello World");
+// }
+// return ourReusableFunction();
+
+function ourFunctionWithArgs(a, b) {
+    console.log(a-b);
 }
-console.log(worldBlanks("dog", "big", "ran", "quickly"))
-console.log(worldBlanks("bike", "pink", "ran", "slowly"))
-
-
+ourFunctionWithArgs(10,5);
 
 
 
