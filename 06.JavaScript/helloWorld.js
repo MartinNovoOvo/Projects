@@ -99,11 +99,31 @@
 // }
 // return ourReusableFunction();
 
-function ourFunctionWithArgs(a, b) {
-    console.log(a-b);
+// function ourFunctionWithArgs(a, b) {
+//     console.log(a-b);
+// }
+// ourFunctionWithArgs(10,5);
+
+// var outerWear = "Shirt";
+// function myOutfit() {
+//     var outerWear = "pants";
+//     return outerWear
+// }
+// console.log(myOutfit())
+
+// function minusSeven(num) {
+//     return num -7;
+// }
+// console.log(minusSeven(10));
+
+// function timesFive(num) {
+//     return num *5;
+// }
+// console.log(timesFive(5));
+var changed = 0;
+
+function change(num) {
+    return (num + 5) / 3;
 }
-ourFunctionWithArgs(10,5);
-
-
-
-
+changed = change(10);
+console.log(changed);
