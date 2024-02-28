@@ -34,22 +34,56 @@
 
 // console.log("---------------------------------")
 
-let message = "You have tree new notifications";
-let userName = "Mar";
-let messageToUser = message + userName;
-console.log(message + " " + userName)
-console.log(messageToUser)
+// let message = "You have tree new notifications";
+// let userName = "Mar";
+// let messageToUser = message + userName;
+// console.log(message + " " + userName)
+// console.log(messageToUser)
 
-let name = "Martin";
-let greeting = "Hi, my name is ";
-let myGreeting = greeting + name;
-console.log(myGreeting)
+// let name = "Martin";
+// let greeting = "Hi, my name is ";
+// let myGreeting = greeting + name;
+// console.log(myGreeting)
 
+// console.log("---------------------------------")
+
+// let firstName = "Mar";
+// let lastName = "cin";
+// let fullName = firstName + " " + lastName;
+// console.log(fullName)
+
+// console.log("---------------------------------")
+// let name = "Linda"
+// let greeting = "Hi there"
+
+// function hiThere() {
+//     let hi = greeting + ", " + name + "!"
+//     console.log(hi)
+// }
+// hiThere()
 
 
 // console.log("---------------------------------")
-// console.log("---------------------------------")
-// console.log("---------------------------------")
+
+// let myPoints = 3
+
+// function add3Points() {
+//     myPoints += 3
+// }
+// add3Points()
+// add3Points()
+// add3Points()
+
+// function remove1Point() {
+//     myPoints -= 1
+//     console.log(myPoints)
+// }
+// remove1Point()
+// remove1Point()
+
+
+
+
 // console.log("---------------------------------")
 // console.log("---------------------------------")
 // console.log("---------------------------------")
