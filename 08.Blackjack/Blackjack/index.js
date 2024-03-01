@@ -1,6 +1,6 @@
 let firstCard = 5
 let secondCard = 3
-let cards = [firstCard, secondCard, ]
+let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard
 let hasBlackjack = false
 let isAlive = true
@@ -31,9 +31,9 @@ function renderGame() {
 
 function newCard() {
     console.log("Drawing new card from the deck")
-    let card = 5
+    let card = 6
     sum += card
     renderGame()
-    // sumEl.innerText = "Sum: " + sum
-    cardEl.innerText = "Cards: " + firstCard +" and "+ secondCard + " and " + card
+    cards.push(card)
+    cardEl.innerText = "Cards: " + cards[0] +" and "+ cards[1] + " and " + cards[2]
 }
