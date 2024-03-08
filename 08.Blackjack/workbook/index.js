@@ -35,7 +35,7 @@
 //     console.log(count)
 // }
 // FOR LOOP AND ARRAY
-console.log("for loop and array")
+// console.log("for loop and array")
 
 // let message = [
 //     "Hey, how's it going",
@@ -57,8 +57,27 @@ console.log("for loop and array")
 // for (let i = 0; i < message.length; i += 1) {
 //     console.log(message[i])
 // }
- let cards = [1, 3, 9, 5, 8]
+//  let cards = [1, 3, 9, 5, 8]
 
- for (let i = 0; i < cards.length; i += 1) {
-    console.log(cards[i])
- }
+//  for (let i = 0; i < cards.length; i += 1) {
+//     console.log(cards[i])
+//  }
+// RANDOM
+console.log("RANDOM")
+
+let x = Math.random()
+console.log(x)
+console.log("---------------")
+
+let y = Math.random() * 10
+console.log(y)
+let flooredNumberY = Math.floor(y)
+console.log(flooredNumberY)
+console.log("---------------")
+
+let q = Math.random() * 100
+console.log(q)
+let flooredNumberQ = Math.floor(q)
+console.log(flooredNumberQ)
+console.log("---------------")
+
