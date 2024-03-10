@@ -63,21 +63,56 @@
 //     console.log(cards[i])
 //  }
 // RANDOM
-console.log("RANDOM")
+// console.log("RANDOM")
 
-let x = Math.random()
-console.log(x)
-console.log("---------------")
+// let x = Math.random()
+// console.log(x)
+// console.log("---------------")
 
-let y = Math.random() * 10
-console.log(y)
-let flooredNumberY = Math.floor(y)
-console.log(flooredNumberY)
-console.log("---------------")
+// let y = Math.random() * 10
+// console.log(y)
+// let flooredNumberY = Math.floor(y)
+// console.log(flooredNumberY)
+// console.log("---------------")
 
-let q = Math.random() * 100
-console.log(q)
-let flooredNumberQ = Math.floor(q)
-console.log(flooredNumberQ)
-console.log("---------------")
+// let q = Math.random() * 100
+// console.log(q)
+// let flooredNumberQ = Math.floor(q)
+// console.log(flooredNumberQ)
+// console.log("---------------")
 
+// function rollDice() {
+//     let a = Math.floor(Math.random() * 6) + 1
+//     return a
+// }
+// console.log(rollDice())
+// console.log("---------------")
+// console.log("Logical and operators")
+
+// let hasCompletedCourse = true
+// let giveCertificate = false
+
+// if (hasCompletedCourse === true && giveCertificate === true) {
+//     generateCertificate()
+// }
+
+// function generateCertificate() {
+//     console.log("Generating certificate...")
+
+//     // if (hasCompletedCourse === true && giveCertificate === true) {
+//     //     return "Generating certificate..."
+//     // }
+// }
+// // console.log(generateCertificate())
+// console.log("---------------")
+
+let hasSolvedChallenge = false
+let hasHintsLeft = false
+
+if (hasSolvedChallenge === false && hasHintsLeft === false) {
+    showSolutions()
+}
+
+function showSolutions() {
+    console.log("Showing the solution...")
+}
