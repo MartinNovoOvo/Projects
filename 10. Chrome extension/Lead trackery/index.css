@@ -4,6 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    min-width: 400px;
 }
 
 input {
@@ -20,4 +21,18 @@ button {
     border: none;
     margin-left: 5px;
     width: fit-content;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+
+}
+
+li {
+    color: #5f9341;
+}
+
+ li a {
+    color: inherit;
 }
